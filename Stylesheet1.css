@@ -90,4 +90,14 @@ ul{
     .footer{
         padding-top: 20px;
     }
+    .skills ul{
+        flex-direction: column;
+    }
+    .skills li{
+        padding-top: 15px;
+    }
+    .skills li:nth-child(even){
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
 }
